@@ -1,0 +1,112 @@
+/*Style button on form and style form/
+
+/*Add an image to the background for the div to rest ontop of/
+
+
+/*Style Welcome Screen:
+1. Style Welcome Text
+2. Add Gotham City Images (skyline on the sides)
+3. Format and style Language option buttons*/
+
+/*This is for the homescreen, it will contain a greeting and an image in the nested container
+and has 2 buttons under the "Select Your Language" text*/
+
+
+/*This is the main font used to for text*/
+@font-face { font-family: Batman; src: url("fonts/DKC Forever.ttf"); }
+@font-face { font-family: Dark Knight; src: url("fonts/Batman The Dark Knight.TTF");
+}
+
+.addbutton {
+  font-family: Batman;
+  background-color: #3300CC;
+  border: 2px;
+  box-shadow: 3px;
+  color: yellow;
+
+  /*position: relative;
+  z-index: auto;*/
+}
+.background {
+  position: relative;
+  display: inline-block;
+  top: 0;
+}
+.homescreencontainer{
+  display: inline-block;
+  border: white;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: #FFFF33;
+  font-family: Batman;
+  text-shadow: 5px 5px #3300CC;
+
+
+}
+.wrapper{
+  background-image: url("images/monitor-32743_1280.png");
+
+}
+
+h4 {
+  font-size: 30px;
+  color: yellow;
+  font-family: Batman;
+}
+
+.container1 {
+  display: inline-block;
+  background-color: white;
+  box-shadow: 3px;
+  font-family: Batman;
+}
+
+.spanishoption{
+  color: yellow;
+  border: 3px;
+  border-style: solid;
+  background-color: white;
+  font-family: Batman;
+}
+
+.englishoption{
+  color: yellow;
+  border: 2px;
+  border-style: solid;
+  background: white;
+  font-family: Batman;
+}
+
+form, #maincontent {
+  width: 50%;
+  margin: 0 auto;
+  background-color: transparent;
+  color: #fff;
+}
+
+p {
+  white-space: pre;
+  font-family: Batman;
+  font-size: 12px;
+}
+button{
+  font-family: Batman;
+}
+
+input {
+  font-family: Batman;
+}
+
+#addbutton {
+  position: relative;
+  width: 50%;
+  background-color: white;
+  float: left;
+  border: 3px;
+  border-style: solid;
+  color: yellow;
+
+}
